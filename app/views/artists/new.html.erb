@@ -1,0 +1,5 @@
+<%= form_for Artist.new, html:{class:"new_form"} do |f| %>
+  <%=f.label :name %>
+  <%=f.text_field :name %>
+  <%= f.submit "Create Artist"%>
+<% end %>
